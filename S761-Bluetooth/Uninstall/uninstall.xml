@@ -1,0 +1,174 @@
+<SUF70UninstallData>
+<DataFilePath>d:\Program Files (x86)\S761-Bluetooth\Uninstall\uninstall.dat</DataFilePath>
+<CPRegKey>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\S761-Bluetooth1.0</CPRegKey>
+<EXELocation>C:\Windows\S761-Bluetooth\uninstall.exe</EXELocation>
+<UninstallFiles>
+<File>
+<Filename>d:\Program Files (x86)\S761-Bluetooth\蓝牙测试软件.exe</Filename>
+<DecrementUsageCount>0</DecrementUsageCount>
+<UnregisterCOM>0</UnregisterCOM>
+<UnregisterFont>0</UnregisterFont>
+<FontDesc/>
+<BackupFile/>
+</File>
+</UninstallFiles>
+<UninstallShortcuts>
+<Filename>C:\Users\kannon\Desktop\工程1.lnk</Filename>
+<Filename>C:\Users\kannon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\工程1.lnk</Filename>
+<Filename>C:\Users\kannon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\S761-Bluetooth\工程1.lnk</Filename>
+<Filename>C:\Users\kannon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\S761-Bluetooth\卸载 S761-Bluetooth.lnk</Filename>
+</UninstallShortcuts>
+<UninstallSupportFiles>
+<Filename>d:\Program Files (x86)\S761-Bluetooth\Uninstall\IRIMG1.JPG</Filename>
+<Filename>d:\Program Files (x86)\S761-Bluetooth\Uninstall\IRIMG2.JPG</Filename>
+</UninstallSupportFiles>
+<UninstallFolders>
+<FolderPath>C:\Users\kannon\AppData\Local\Temp\_ir_sf7_temp_0\vb5sp3</FolderPath>
+<FolderPath>d:\Program Files (x86)\S761-Bluetooth</FolderPath>
+<FolderPath>d:\Program Files (x86)\S761-Bluetooth\Uninstall</FolderPath>
+<FolderPath>C:\Windows\S761-Bluetooth</FolderPath>
+<FolderPath>C:\Users\kannon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\S761-Bluetooth</FolderPath>
+</UninstallFolders>
+<SessionVars>
+<Var>
+<Name>%ProductName%</Name>
+<Value>S761-Bluetooth</Value>
+</Var>
+<Var>
+<Name>%CompanyName%</Name>
+<Value>宁波丰吉双可电子有限公司</Value>
+</Var>
+<Var>
+<Name>%ProductVer%</Name>
+<Value>1.0</Value>
+</Var>
+<Var>
+<Name>%Copyright%</Name>
+<Value>版权 (C)2005 %CompanyName%</Value>
+</Var>
+<Var>
+<Name>%CompanyURL%</Name>
+<Value>www.nbsock.cn</Value>
+</Var>
+<Var>
+<Name>%WindowTitle%</Name>
+<Value>%ProductName% 安装</Value>
+</Var>
+<Var>
+<Name>%AppFolder%</Name>
+<Value>d:\Program Files (x86)\S761-Bluetooth</Value>
+</Var>
+<Var>
+<Name>%AppShortcutFolderName%</Name>
+<Value>%ProductName%</Value>
+</Var>
+<Var>
+<Name>%ApplicationDataFolder%</Name>
+<Value>C:\Users\kannon\AppData\Roaming</Value>
+</Var>
+<Var>
+<Name>%CommonFilesFolder%</Name>
+<Value>C:\Program Files (x86)\Common Files</Value>
+</Var>
+<Var>
+<Name>%DesktopFolder%</Name>
+<Value>C:\Users\kannon\Desktop</Value>
+</Var>
+<Var>
+<Name>%DesktopFolderCommon%</Name>
+<Value>C:\Users\Public\Desktop</Value>
+</Var>
+<Var>
+<Name>%FontsFolder%</Name>
+<Value>C:\Windows\Fonts</Value>
+</Var>
+<Var>
+<Name>%MyDocumentsFolder%</Name>
+<Value>C:\Users\kannon\Documents</Value>
+</Var>
+<Var>
+<Name>%ProgramFilesFolder%</Name>
+<Value>C:\Program Files (x86)</Value>
+</Var>
+<Var>
+<Name>%StartFolder%</Name>
+<Value>C:\Users\kannon\AppData\Roaming\Microsoft\Windows\Start Menu</Value>
+</Var>
+<Var>
+<Name>%StartFolderCommon%</Name>
+<Value>C:\ProgramData\Microsoft\Windows\Start Menu</Value>
+</Var>
+<Var>
+<Name>%StartProgramsFolder%</Name>
+<Value>C:\Users\kannon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs</Value>
+</Var>
+<Var>
+<Name>%StartProgramsFolderCommon%</Name>
+<Value>C:\ProgramData\Microsoft\Windows\Start Menu\Programs</Value>
+</Var>
+<Var>
+<Name>%StartupFolder%</Name>
+<Value>C:\Users\kannon\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</Value>
+</Var>
+<Var>
+<Name>%StartupFolderCommon%</Name>
+<Value>C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp</Value>
+</Var>
+<Var>
+<Name>%SystemFolder%</Name>
+<Value>C:\Windows\system32</Value>
+</Var>
+<Var>
+<Name>%WindowsFolder%</Name>
+<Value>C:\Windows</Value>
+</Var>
+<Var>
+<Name>%SystemDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%TempFolder%</Name>
+<Value>C:\Users\kannon\AppData\Local\Temp</Value>
+</Var>
+<Var>
+<Name>%TempLaunchFolder%</Name>
+<Value>C:\Users\kannon\AppData\Local\Temp\_ir_sf7_temp_0</Value>
+</Var>
+<Var>
+<Name>%RegOwner%</Name>
+<Value>Windows 用户</Value>
+</Var>
+<Var>
+<Name>%RegOrganization%</Name>
+<Value></Value>
+</Var>
+<Var>
+<Name>%AppDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%DAOPath%</Name>
+<Value>%CommonFiles%\Microsoft Shared\DAO</Value>
+</Var>
+<Var>
+<Name>%SourceFilename%</Name>
+<Value>C:\Users\kannon\AppData\Local\Temp\360zip$Temp\360$2\HC-05AT测试版\setup\setup.exe</Value>
+</Var>
+<Var>
+<Name>%SourceFolder%</Name>
+<Value>C:\Users\kannon\AppData\Local\Temp\360zip$Temp\360$2\HC-05AT测试版\setup</Value>
+</Var>
+<Var>
+<Name>%SourceDrive%</Name>
+<Value>C:</Value>
+</Var>
+<Var>
+<Name>%SpaceAvailable%</Name>
+<Value>109.19 GB</Value>
+</Var>
+<Var>
+<Name>%SpaceRequired%</Name>
+<Value>3.53 MB</Value>
+</Var>
+</SessionVars>
+</SUF70UninstallData>
