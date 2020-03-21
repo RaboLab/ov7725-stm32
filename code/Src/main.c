@@ -26,7 +26,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "sd_hal_mpu6050.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -46,7 +46,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+	SD_MPU6050 mpu1;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -67,7 +67,8 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	uint8_t msg[] = "mpu6050 inited!\n";
+	SD_MPU6050_Result result;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -91,6 +92,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
+	HAL_UART_Transmit(&huart1,msg,sizeof(msg),0xFFFF);
 
   /* USER CODE END 2 */
 
@@ -101,6 +103,23 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+		result = SD_MPU6050_Init(&hi2c1,&mpu1,SD_MPU6050_Device_0,SD_MPU6050_Accelerometer_2G,SD_MPU6050_Gyroscope_250s );
+			
+		while(result != SD_MPU6050_Result_Ok);
+		HAL_UART_Transmit(&huart1, msg, sizeof(msg), 0xFFFF);
+		HAL_Delay(1000);
+		SD_MPU6050_ReadTemperature(&hi2c1,&mpu1);
+	  float temper = mpu1.Temperature;
+	  SD_MPU6050_ReadGyroscope(&hi2c1,&mpu1);
+	  int16_t g_x = mpu1.Gyroscope_X;
+	  int16_t g_y = mpu1.Gyroscope_Y;
+	  int16_t g_z = mpu1.Gyroscope_Z;
+	  SD_MPU6050_ReadAccelerometer(&hi2c1,&mpu1);
+	  int16_t a_x = mpu1.Accelerometer_X;
+	  int16_t a_y = mpu1.Accelerometer_Y;
+	  int16_t a_z = mpu1.Accelerometer_Z;
+		HAL_UART_Transmit(&huart1,(uint8_t *)(&a_x),sizeof(a_x),0xFFFF);
+		HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }
